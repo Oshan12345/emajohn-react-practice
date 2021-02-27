@@ -1,0 +1,27 @@
+import React from "react";
+import image1 from "../../banner-images/phone-1.png";
+function Carousal() {
+  return (
+    <div>
+      <div className="card m-auto container">
+        <div className="row g-0">
+          <div className="col-md-8 align-self-center">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text align-middle">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <img src={image1} alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Carousal;

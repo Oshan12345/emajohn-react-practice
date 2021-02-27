@@ -1,0 +1,13 @@
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: rgb(238, 238, 238);
+}
+li a:visited{
+    color: blueviolet;
+}
